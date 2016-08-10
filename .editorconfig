@@ -39,6 +39,8 @@ indent_size = 3
 
 
 [*.sh]
+# https://google.github.io/styleguide/shell.xml
+
 indent_style = space
 indent_size = 2
 
