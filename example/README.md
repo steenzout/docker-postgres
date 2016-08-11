@@ -28,6 +28,8 @@ You can now access the database using:
 $ psql -h 127.0.0.1 example
 ```
 
+Afterwards you can run `\dx` to list all installed extensions.
+
 To cleanup:
 
 ```
