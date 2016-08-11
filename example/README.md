@@ -15,10 +15,10 @@ To run this new image:
 ```
 $ docker run \
 	-d \
-        --name example \
+	--name example \
 	-e POSTGRES_USER=${USER} \
 	-e POSTGRES_DB=example \
-        -e POSTGRES_PASSWORD=secret \
+	-e POSTGRES_PASSWORD=secret \
 	-p 5432:5432 steenzout/postgres-example:9.6
 ```
 
